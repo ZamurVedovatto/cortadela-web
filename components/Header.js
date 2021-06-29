@@ -11,8 +11,8 @@ import {
 
 export default function Header() {
     return (
-        <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
-            <div className="flex flex-grow justify-evenly max-w-2xl">
+        <header className="flex flex-col sm:flex-row justify-between items-center h-auto bg-white px-8 py-4">
+            <div className="flex flex-grow justify-evenly items-center max-w-2xl">
                 <HeaderItem title="HOME" Icon={HomeIcon} />
                 <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
                 <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
@@ -21,10 +21,10 @@ export default function Header() {
                 <HeaderItem title="ACCOUNT" Icon={UserIcon} />
             </div>
             <Image
-                className="object-contain"
-                src="https://links.papareact.com/ua6"
-                width={200}
-                height={100}
+                className="object-contain transition-all duration-100 transform hover:scale-75"
+                src="/img/cortadela/logo.png"
+                width={40}
+                height={40}
             />
         </header>
     )   

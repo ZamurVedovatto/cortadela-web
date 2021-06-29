@@ -1,41 +1,44 @@
 const API_KEY = process.env.API_KEY;
+const API_URL = process.env.API_URL;
+
+// hots, finanças, humor, nonsense, conhecimento, fitness, alimentação, nerd
 
 export default {
     fetchTrending: {
         title: 'Trending',
-        url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
+        url: `${API_URL}/api/videos?genre=trending`
     },
-    fetchTopRated: {
-        title: 'Top Rated',
-        url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`
+    fetchHots: {
+        title: 'Hots',
+        url: `${API_URL}/api/videos?genre=hots`
     },
-    fetchActionMovies: {
-        title: 'Action Movies',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=28`
+    fetchFinancas: {
+        title: 'Finanças',
+        url: `${API_URL}/api/videos?genre=financas`
     },
-    fetchComedyMovies: {
-        title: 'Comedy Movies',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=35`
+    fetchHumor: {
+        title: 'Humor',
+        url: `${API_URL}/api/videos?genre=humor`
     },
-    fetchOther1: {
-        title: 'Other 1',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=36`
+    fetchNonsense: {
+        title: 'Nonsense',
+        url: `${API_URL}/api/videos?genre=nonsense`
     },
-    fetchOther2: {
-        title: 'Other 2',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=37`
+    fetchConhecimento: {
+        title: 'Conhecimento',
+        url: `${API_URL}/api/videos?genre=conhecimento`
     },
-    fetchOther3: {
-        title: 'Other 3',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=38`
+    fetchFitness: {
+        title: 'Fitness',
+        url: `${API_URL}/api/videos?genre=fitness`
     },
-    fetchOther4: {
-        title: 'Other 4',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=39`
+    fetchAlimentacao: {
+        title: 'Alimentação',
+        url: `${API_URL}/api/videos?genre=alimentacao`
     },
-    fetchOther5: {
-        title: 'Other 5',
-        url: `/discover/movie?api_key=${API_KEY}&with_genres=40`
+    fetchNerd: {
+        title: 'Nerd',
+        url: `${API_URL}/api/videos?genre=nerd`
     },
 }
 
