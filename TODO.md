@@ -1,0 +1,2 @@
+- change favicon
+- cortes hots, finanças, humor, nonsense, conhecimento, fitness, alimentação, nerd
