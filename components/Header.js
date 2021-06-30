@@ -11,7 +11,7 @@ import {
 
 export default function Header() {
     return (
-        <header className="flex flex-col sm:flex-row justify-between items-center h-auto bg-white px-8 py-4">
+        <header className="flex flex-col sm:flex-row justify-between items-center h-auto bg-white px-8 pt-8 pb-2" style={{ backgroundColor: "#222f33" }}>
             <div className="flex flex-grow justify-evenly items-center max-w-2xl">
                 <HeaderItem title="HOME" Icon={HomeIcon} />
                 <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />

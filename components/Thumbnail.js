@@ -37,25 +37,25 @@ export default function Thumbnail({ result }, ref) {
     }
 
     return (
-        <>
-            <div id="yourAppElement" className="group cursor-pointer p-2 hover:z-50">
+        <div className="border-4 m-1 border-black">
+            <div id="yourAppElement" className="group cursor-pointer hover:z-50">
                 <Image
                     layout='responsive'
                     height={1080}
                     width={1920}
                     src={result.img}
                     onClick={openModal}
-                    className="transition duration-500 ease-in-out transform sm:hover:scale-95"
+                    className="transition duration-300 ease-in-out transform sm:hover:scale-110"
                 />
-                <div className="p-2 flex flex-row-reverse">
+                {/* <div className="p-2 flex flex-row-reverse relative" style={{ bottom: "3rem", zIndex: "999" }}>
                     <p className="max-w-md leading-5">{result.title}</p>
-                    {/* <p className="mt-1 text-sm text-white transition-all duration-100 ease-in-out group-hover:font-bold truncate max-w-md">{result.overview}</p> */}
+                    <p className="mt-1 text-sm text-white transition-all duration-100 ease-in-out group-hover:font-bold truncate max-w-md">{result.overview}</p>
                     <p className="flex items-center leading-5">
                         {
                             result.liked ? <HeartIconSolid className="h-7 mx-2 text-red-400" /> : <HeartIcon className="h-7 mx-2" />
                         }
                     </p>
-                </div>
+                </div> */}
             </div>
         
             <Modal
@@ -72,6 +72,6 @@ export default function Thumbnail({ result }, ref) {
 
 
             </Modal>
-        </>
+        </div>
     )
 }

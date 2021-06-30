@@ -65,7 +65,7 @@ const videos = [
     {
         genre: "trending",
         title: "video 5",
-        img: "/img/videos/000002/002.png",
+        img: "/img/videos/000002/003.png",
         iframe: '<iframe src="https://www.youtube.com/embed/GvPwnCAmnCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         overview: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
         title: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
@@ -75,7 +75,7 @@ const videos = [
     {
         genre: "trending",
         title: "video 6",
-        img: "/img/videos/000002/002.png",
+        img: "/img/videos/000002/004.png",
         iframe: '<iframe src="https://www.youtube.com/embed/GvPwnCAmnCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         overview: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
         title: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
@@ -85,7 +85,7 @@ const videos = [
     {
         genre: "trending",
         title: "video 7",
-        img: "/img/videos/000002/002.png",
+        img: "/img/videos/000001/001.png",
         iframe: '<iframe src="https://www.youtube.com/embed/GvPwnCAmnCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         overview: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
         title: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
@@ -95,7 +95,7 @@ const videos = [
     {
         genre: "trending",
         title: "video 8",
-        img: "/img/videos/000002/002.png",
+        img: "/img/videos/000001/002.png",
         iframe: '<iframe src="https://www.youtube.com/embed/GvPwnCAmnCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         overview: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
         title: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",

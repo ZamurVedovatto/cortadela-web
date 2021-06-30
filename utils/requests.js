@@ -8,6 +8,10 @@ export default {
         title: 'Trending',
         url: `${API_URL}/api/videos?genre=trending`
     },
+    fetchPills: {
+        title: 'Pills',
+        url: `${API_URL}/api/videos?genre=pills`
+    },
     fetchHots: {
         title: 'Hots',
         url: `${API_URL}/api/videos?genre=hots`
