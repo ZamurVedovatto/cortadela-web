@@ -5,7 +5,7 @@ export default function Navbar() {
     const router = useRouter()
     return (
         <nav>
-            <div className="flex justify-center pt-6 px-5 sm:px-10 whitespace-nowrap space-x-5 sm:space-x-10 overflow-x-scroll scrollbar-hide">
+            <div className="flex justify-center pt-6 pb-3 px-5 sm:px-10 whitespace-nowrap space-x-5 sm:space-x-10 overflow-x-scroll scrollbar-hide bg-black">
                 {Object.entries(requests).map(([key, { title, url }]) => (
                     <span
                         key={key}

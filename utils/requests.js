@@ -28,9 +28,9 @@ export default {
         title: 'Nonsense',
         url: `${API_URL}/api/videos?genre=nonsense`
     },
-    fetchConhecimento: {
-        title: 'Conhecimento',
-        url: `${API_URL}/api/videos?genre=conhecimento`
+    fetchCuriosidade: {
+        title: 'Curiosidade',
+        url: `${API_URL}/api/videos?genre=curiosidade`
     },
     fetchFitness: {
         title: 'Fitness',
@@ -43,6 +43,10 @@ export default {
     fetchNerd: {
         title: 'Nerd',
         url: `${API_URL}/api/videos?genre=nerd`
+    },
+    fetchTeologia: {
+        title: 'Teologia',
+        url: `${API_URL}/api/videos?genre=teologia`
     },
 }
 
