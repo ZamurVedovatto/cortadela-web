@@ -27,6 +27,12 @@ Modal.defaultStyles.overlay.backgroundColor = 'black';
 
 export default function Thumbnail({ result }, ref) {
     let subtitle;
+    let videoIframe = `
+        <iframe 
+            style="height:86vh;width:100%;border:none;overflow:hidden;"
+            src="https://www.youtube.com/embed/${result.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" mute=1 allow="autoplay; fullscreen">
+        </iframe>
+    `
     const [modalIsOpen, setIsOpen] = useState(false);
 
     const openModal = () => {
@@ -78,7 +84,7 @@ export default function Thumbnail({ result }, ref) {
 
                 <div
                     style={{ width: "100%", height: "100%" }}
-                    dangerouslySetInnerHTML={ {__html:  result.iframe? result.iframe : ""}}
+                    dangerouslySetInnerHTML={ {__html: videoIframe? videoIframe : ""}}
                 />
             </Modal>
         </div>
