@@ -5,13 +5,13 @@ export default function Navbar() {
     const router = useRouter()
     return (
         <nav>
-            <div className="flex flex-wrap px-10 py-2 justify-around items-center bg-gray-700">
+            <div className="flex flex-wrap px-10 py-2 justify-center items-center bg-gray-700">
             {/* <div className="flex justify-center pt-6 pb-3 px-5 sm:px-10 whitespace-nowrap space-x-5 sm:space-x-10 overflow-x-scroll scrollbar-hide bg-black"> */}
                 {Object.entries(requests).map(([key, { title, url }]) => (
                     <span
                         key={key}
                         onClick={() => router.push(`/?genre=${key}`)}
-                        className="cursor-pointer transition-all duration-100 transform hover:scale-125 hover:text-white text-base m-2"
+                        className="cursor-pointer transition-all duration-100 transform hover:scale-125 hover:text-white text-base mx-3 my-1"
                     >#{title}</span>
                 ))}
             </div>
