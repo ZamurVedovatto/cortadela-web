@@ -24,6 +24,10 @@ export default {
         title: 'Negócios',
         url: `${API_URL}/api/videos?genre=negocios`
     },
+    fetchPolemicos: {
+        title: 'Polêmicos',
+        url: `${API_URL}/api/videos?genre=polemicos`
+    },
     fetchHumor: {
         title: 'Humor',
         url: `${API_URL}/api/videos?genre=humor`
