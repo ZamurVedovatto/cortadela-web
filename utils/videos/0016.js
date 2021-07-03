@@ -1,12 +1,9 @@
-{/* <iframe width="560" height="315" src="https://www.youtube.com/embed/PMgOr1O4wag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-
-
 export default [
     {
         genre: ["hots", "trending"],
         img: "/img/videos/000016/001.png",
         url: "https://www.youtube.com/embed/PMgOr1O4wag",
-        title: "Como foi a ida das advogadas do Danilo Gentili ao Flow",
+        title: "Como foi a ida das advogadas do Danilo Gentili ao Flow - Advogatas",
         liked: false,
         trending: true
     },
