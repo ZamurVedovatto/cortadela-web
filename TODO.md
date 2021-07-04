@@ -5,3 +5,9 @@
     - nome do participante
     - nome do podcast
     - subgeneros como "esportes > futebol" ou "musica > rock"
+
+- ordernação dos resultados
+    - ordem alfabética
+    - mais assistidos
+    - novos
+
