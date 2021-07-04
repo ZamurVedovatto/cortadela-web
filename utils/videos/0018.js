@@ -81,7 +81,7 @@ export default [
     },
     {
         genre: ["polemicos"],
-        img: "/img/videos/000018/006.png",
+        img: "/img/videos/000018/011.png",
         title: "Preconceito por ter sido Panicat no passado - Carol Dias ex-Panicat (Inteligência Ltda)",
         url: "C2u_5pTPq0A",
         liked: false,

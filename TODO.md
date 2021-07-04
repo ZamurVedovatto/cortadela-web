@@ -1,6 +1,6 @@
 - SEO strategies
 
-#musica
+#musica #todos #sexo
 - subtags com:
     - nome do participante
     - nome do podcast
