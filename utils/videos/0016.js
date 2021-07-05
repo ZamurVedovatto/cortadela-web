@@ -2,7 +2,7 @@ export default [
     {
         genre: ["hots", "trending"],
         img: "/img/videos/000016/001.png",
-        url: "https://www.youtube.com/embed/PMgOr1O4wag",
+        url: "PMgOr1O4wag",
         title: "Como foi a ida das advogadas do Danilo Gentili ao Flow - Advogatas",
         liked: false,
         trending: true
