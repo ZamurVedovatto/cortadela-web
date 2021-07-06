@@ -12,9 +12,9 @@ export default {
         title: 'Hots',
         url: `${API_URL}/api/videos?genre=hots`
     },
-    fetchNegocios: {
-        title: 'Negócios',
-        url: `${API_URL}/api/videos?genre=negocios`
+    fetchFinancas: {
+        title: 'Finanças',
+        url: `${API_URL}/api/videos?genre=financas`
     },
     fetchFutebol: {
         title: 'Futebol',

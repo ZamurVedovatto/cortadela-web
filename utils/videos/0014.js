@@ -1,6 +1,6 @@
 export default [
     {
-        genre: ["trending", "negocios"],
+        genre: ["trending", "financas"],
         img: "/img/videos/000014/001.png",
         title: "Apoiar depois que dá certo não é apoiar, é pegar carona - Felipe Titto (FodCast)",
         url: "Hz1UJioPYd0",
@@ -8,7 +8,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/002.png",
         title: "É importante você falar de si sem ser prepotente - Felipe Titto (FodCast)",
         url: "2H390muqcQY",
@@ -16,7 +16,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/003.png",
         title: "Empreendedorismo e encarar seus medos - Felipe Titto (FodCast)",
         url: "bkof635avGg",
@@ -24,7 +24,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/004.png",
         title: "Saber separar a vida real e a encenação do ator - Felipe Titto (FodCast)",
         url: "-bg-m90v7uA",
@@ -32,7 +32,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/006.png",
         title: "Proatividade e hiperatividade como aliados - Felipe Titto (FodCast)",
         url: "wh6RMX4jK-E",
@@ -40,7 +40,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/007.png",
         title: "A vontade de continuar empreendendo - Felipe Titto (FodCast)",
         url: "fF45gqWEiOU",
@@ -48,7 +48,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/008.png",
         title: "Saber usar o olhar clínico da melhor forma - Felipe Titto (FodCast)",
         url: "CYE5RdiU5rQ",
@@ -56,7 +56,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/009.png",
         title: "Enfrentar a pandemia e conseguir trabalhar o que está sobre seu controle - Felipe Titto (FodCast)",
         url: "o4U3sLRNWyY",
@@ -64,7 +64,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/010.png",
         title: "As pessoas só mostram o passado quando o presente é vitorioso - Felipe Titto (FodCast)",
         url: "xdtZy2C7ODo",
@@ -72,7 +72,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/011.png",
         title: "Fazer faculdade e o sistema educacional brasileiro - Felipe Titto (FodCast)",
         url: "Mmfi86tuFSM",
@@ -80,7 +80,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/012.png",
         title: "Virtudes e sobre não confundir ganância com ambição - Felipe Titto (FodCast)",
         url: "n32u66sDi4o",
@@ -88,7 +88,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/013.png",
         title: "Ser competitivo em todos os aspectos da vida - Felipe Titto (FodCast)",
         url: "yoW1-X_iIxg",
@@ -96,7 +96,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/016.png",
         title: "A mensagem que todo mundo deveria ter como lema - Felipe Titto (FodCast)",
         url: "6WV7Xu8f3bw",
@@ -104,7 +104,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/015.png",
         title: "As pessoas compram como verdade tudo que um influencer fala - Felipe Titto (FodCast)",
         url: "mG7laMKcp48",
@@ -112,7 +112,7 @@ export default [
         trending: true
     },
     {
-        genre: ["negocios"],
+        genre: ["financas"],
         img: "/img/videos/000014/014.png",
         title: "Encarar a vida com o viés da positividade - Felipe Titto (FodCast)",
         url: "X1Gcq8w-ic8",

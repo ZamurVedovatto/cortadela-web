@@ -1,22 +1,8 @@
-const example = [
-    {
-        genre: "trending",
-        title: "video 1",
-        img: "/img/videos/000016/001.png",
-        iframe: `<iframe 
-        style="height:86vh;width:100%;border:none;overflow:hidden;"
-        src="https://www.youtube.com/embed/PMgOr1O4wag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" mute=1 allow="autoplay; fullscreen"></iframe>`,
-        overview: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
-        title: "Eu fui o primeiro digital influencer do Brasil - Rica Perrone (PodihhCast)",
-        liked: true
-    }
-]
-
 import videos from './../../utils/videos';
 
 export default function handler(req, res) {
 
-    console.log(videos)
+    // console.log(videos)
 
     let genre = req.query.genre;
 

@@ -11,3 +11,11 @@
     - mais assistidos
     - novos
 
+- playlists organizadas por temas (outcomes - ex: como organizar suas finanças)
+    - finanças
+    - inspiração
+    - futebol
+    - teologia/deus
+
+- vídeos das melhores partes de um programa compilados
+- pills de um mesmo programa compilados
